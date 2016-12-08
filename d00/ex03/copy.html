@@ -1,0 +1,78 @@
+<!--
+                                                          :::      ::::::::
+     copy.html                                          :+:      :+:    :+:
+                                                      +:+ +:+         +:+
+     By: clegoube <clegoube@student.42.fr>          +#+  +:+       +#+
+                                                  +#+#+#+#+#+   +#+
+     Created: 2016/12/05 13:06:56 by clegoube          #+#    #+#
+     Updated: 2016/12/05 18:39:55 by clegoube         ###   ########.fr
+-->
+<!--                                                                         -->
+<!-- *********************************************************************** -->
+
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<title>Progress Bar</title>
+		<link rel="stylesheet" href="style.css">
+		<style>
+			.html5 p:after {
+				right: 20%;
+			}
+			.css3 p:after {
+				right: 40%;
+			}
+			.jquery p:after {
+				right: 50%;
+			}
+			.python p:after {
+				right: 25%;
+			}
+			.php p:after {
+				right: 35%;
+			}
+			.node-js p:after {
+				right: 65%;
+			}
+		</style>
+	</head>
+	<body>
+		<ul>
+			<li>
+				<h2>Frontend</h2>
+				<div>
+					<div class="html5">
+						<p data-value="80">HTML5</p>
+						<progress class="html5" max="100" value="80"></progress>
+					</div>
+					<div class="css3">
+						<p data-value="60">CSS3</p>
+						<progress class="html5" max="100" value="60"></progress>
+					</div>
+					<div class="jquery">
+						<p data-value="50">jQuery</p>
+						<progress class="html5" max="100" value="50"></progress>
+					</div>
+				</div>
+			</li>
+			<li>
+				<h2>Backend</h2>
+				<div>
+					<div class="python">
+						<p data-value="75">Python</p>
+						<progress class="html5" max="100" value="75"></progress>
+					</div>
+					<div class="php">
+						<p data-value="65">PHP</p>
+						<progress class="html5" max="100" value="65"></progress>
+					</div>
+					<div class="node-js">
+						<p data-value="35">Node.js</p>
+						<progress class="html5" max="100" value="35"></progress>
+					</div>
+				</div>
+			</li>
+		</ul>
+	</body>
+</html>
